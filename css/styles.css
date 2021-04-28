@@ -1,0 +1,240 @@
+/* #dce1da
+#ffb9ab
+#ffcca2 
+rgb(226,175,147)
+#e2af93
+.background-color {
+  background: linear-gradient(
+130deg
+,#ff7a18,#af002d 41.07%,#319197 76.05%);
+}*/
+
+/* priority of the applying css */
+/* inline
+internal
+external
+hashtag #
+class .
+element */
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* ain't use a > b just add extra class ain't be lazy bitch! */
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Nav section */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+/* Download button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title section */
+
+#title {
+  text-align: left;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+ #title .container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+/* Feature section */
+
+#features {
+  /* padding: 7% 15%; */
+  position: relative;
+  /* z-index: 1; */
+  
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  /* text-align: center; */
+  padding: 4.5%;
+}
+
+.iconFeatures {
+  /* font-size: 3.125rem; */
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.iconFeatures:hover {
+  color: #ff4d69;
+  /* color: #ff7043; */
+}
+
+/* Testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+  /* text-align: center; */
+}
+
+.testimonials-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.imageTestimonials {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2rem;
+}
+
+/* Press section */
+
+#press {
+  /* position: relative; */
+  bottom: 3px;
+  background-color: #ef8172;
+  /* text-align: center; */
+  /* padding-bottom: 3%; */
+}
+
+.pressLogo {
+  width: 15%;
+  margin: 1.25rem 1.25rem 3.125rem;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 5%;
+  /* text-align: center; */
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.columnPrice {
+  padding: 2rem;
+}
+
+@media (max-width: 61.875rem) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* CTA section */
+
+/* #cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+} */
+
+/* Footer section */
+
+/* #footer {
+  text-align: center;
+  padding: 7% 15%;
+} */
+
+.fa-footer {
+  margin: 3% 5%;
+}
+
+.fa-footer:hover {
+  color: #ff4c68;
+}
+
+.p-footer {
+  padding: 2% 3%;
+}
+
+.form-footer {
+  display: inline-block;
+}
+
+/* Notes 4 maself */
+
+/* If the background  colored we've to change the color of the text to #fff (white  ) 
+  Use HTML headings for headings only. Don't use headings to make text BIG or bold.
+*/
